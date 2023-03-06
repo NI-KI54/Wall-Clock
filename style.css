@@ -91,7 +91,7 @@ body{
 
 .arrows .hour{
     height: 80px;
-    transform: rotate(30deg);
+    transform: rotate(60deg);
 }
 
 .arrows .second{
