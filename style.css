@@ -95,7 +95,6 @@ body{
 }
 
 .arrows .second{
-    height: 80px;
     transform: rotate(250deg);
     background-color: slategray;
 }
