@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #6db784;
+    background-color: #39395f;
     font-family: cursive;
     height: 100vh;
     display: flex;
@@ -14,24 +14,25 @@ body{
     left: 50%;
     transform: translate(-50%);
     top: 60px;
+    color: black;
     z-index: 2;
 }
 
 .wallClock{
     position: relative;
-    background-color:  #f9e45b;
+    background-color:  #39395f;
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    border: 5px groove teal;
-    /* box-shadow: 1px 1px 4px ; */
+    border: 5px solid #39395f;
+    box-shadow: 1px 1px 7px ;
 }
 
 .numbers div{
     position: absolute;
     font-size: 27px;
-    font-weight: bold;
-    color: ;
+    font-weight: lighter;
+    color: white;
     text-shadow: 1px 1px 2px;
 }
 
@@ -71,7 +72,7 @@ body{
     content: "";
     width: 25px;
     height: 25px;
-    background-color: teal;
+    background-color: #73a24e ;
     border-radius: 50%;
     box-shadow: 1px 1px 2px rgba(0,0,0,.7);
     z-index: 4;
@@ -98,4 +99,3 @@ body{
     transform: rotate(250deg);
     background-color: slategray;
 }
-
